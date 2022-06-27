@@ -53,7 +53,7 @@ toCartBtn.addEventListener("click", () => {
     toCartBtn.innerHTML = `Article ajouté !`;
 });
 
-/*Ajout d'un bouton panier et retour product.html ligne 83
+/*Ajout d'un bouton panier et retour product.html ligne 83*/
 
 const goToCartBtn = document.getElementById("goToCart");
 goToCartBtn.style.display = "none";
@@ -65,4 +65,4 @@ const backToShop = document.getElementById("backToShopping");
 backToShop.style.display = "none";
 backToShop.addEventListener("click", () => {
     window.location.href = "index.html";
-  });*/
+  });
