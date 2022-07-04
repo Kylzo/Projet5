@@ -1,6 +1,6 @@
-const Url = "http://localhost:3000/api/products/";
+const url = "http://localhost:3000/api/products/";
 let cardsFetch = function () {
-  fetch(Url)
+  fetch(url)
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
